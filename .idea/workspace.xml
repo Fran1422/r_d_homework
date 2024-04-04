@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c04be64-0d36-47eb-89d6-a0f25d9174ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/r_d_homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_02/job1/file_storage/raw/sales/sales_2022-08-09_1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_02/job1/file_storage/raw/sales/sales_2022-08-09_2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_02/job1/file_storage/raw/sales/sales_2022-08-09_3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_02/job1/file_storage/raw/sales/sales_2022-08-09_4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_02/job1/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_02/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_02/convert_avro_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_02/job1/file_storage/raw/sales/sales_2022-08-09_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_02/job1/file_storage/raw/sales/sales_2022-08-09_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_02/job1/file_storage/raw/sales/sales_2022-08-09_3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_02/job1/file_storage/raw/sales/sales_2022-08-09_4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_02/job1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_02/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2eYGKPhFlEU1BadCznCXNlfQg6V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,7 +41,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Unnamed.executor": "Run",
+    "Python.convert_avro (1).executor": "Run",
+    "Python.convert_avro.executor": "Run",
+    "Python.convert_avro_server (1).executor": "Run",
+    "Python.convert_avro_server.executor": "Run",
     "Python.job1.executor": "Run",
+    "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,10 +66,57 @@
       <recent name="C:\Users\Yuriy\PycharmProjects\r_d_homework\lesson_02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yuriy\PycharmProjects\r_d_homework\lesson_02" />
       <recent name="C:\Users\Yuriy\PycharmProjects\r_d_homework\lesson_02\job1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.convert_avro_server">
+    <configuration name="convert_avro" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="r_d_homework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_02/convert_avro.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="convert_avro_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="r_d_homework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_02/convert_avro_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="job1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="r_d_homework" />
       <option name="ENV_FILES" value="" />
@@ -106,12 +152,12 @@
         <env name="AUTH_TOKEN" value="2b8d97ce57d401abd89f45b0079d8790edd940e6" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_02/job1" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Yuriy\PycharmProjects\r_d_homework\lesson_02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_02/job1/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_02/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,11 +168,15 @@
     </configuration>
     <list>
       <item itemvalue="Python.job1" />
+      <item itemvalue="Python.convert_avro" />
+      <item itemvalue="Python.convert_avro_server" />
       <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.convert_avro_server" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.convert_avro" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +195,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712074033297</updated>
-      <workItem from="1712074039921" duration="13830000" />
+      <workItem from="1712074039921" duration="25027000" />
+      <workItem from="1712247108884" duration="6261000" />
     </task>
     <servers />
   </component>
@@ -153,7 +204,12 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/r_d_homework$main.coverage" NAME="main Coverage Results" MODIFIED="1712230021324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02/job1" />
+    <SUITE FILE_PATH="coverage/r_d_homework$convert_avro_server.coverage" NAME="convert_avro_server Coverage Results" MODIFIED="1712268272695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02" />
+    <SUITE FILE_PATH="coverage/r_d_homework$convert_avro_server__1_.coverage" NAME="convert_avro_server (1) Coverage Results" MODIFIED="1712244867382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02" />
+    <SUITE FILE_PATH="coverage/r_d_homework$convert_avro__1_.coverage" NAME="convert_avro (1) Coverage Results" MODIFIED="1712248051975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02" />
+    <SUITE FILE_PATH="coverage/r_d_homework$convert_avro.coverage" NAME="convert_avro Coverage Results" MODIFIED="1712266271500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02" />
+    <SUITE FILE_PATH="coverage/r_d_homework$main__1_.coverage" NAME="main Coverage Results" MODIFIED="1712244726506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Yuriy\PycharmProjects\r_d_homework\lesson_02" />
+    <SUITE FILE_PATH="coverage/r_d_homework$main.coverage" NAME="main Coverage Results" MODIFIED="1712268269140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Yuriy\PycharmProjects\r_d_homework\lesson_02" />
     <SUITE FILE_PATH="coverage/r_d_homework$job1.coverage" NAME="job1 Coverage Results" MODIFIED="1712096584290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
