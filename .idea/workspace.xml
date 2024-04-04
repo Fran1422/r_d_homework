@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c04be64-0d36-47eb-89d6-a0f25d9174ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson_02/convert_avro_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_02/job1/file_storage/raw/sales/sales_2022-08-09_1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_02/job1/file_storage/raw/sales/sales_2022-08-09_2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_02/job1/file_storage/raw/sales/sales_2022-08-09_3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_02/job1/file_storage/raw/sales/sales_2022-08-09_4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_02/job1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_02/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "lesson__02",
     "last_opened_file_path": "C:/Users/Yuriy/PycharmProjects/r_d_homework/lesson_02",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -196,7 +189,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712074033297</updated>
       <workItem from="1712074039921" duration="25027000" />
-      <workItem from="1712247108884" duration="6261000" />
+      <workItem from="1712247108884" duration="7800000" />
     </task>
     <servers />
   </component>
